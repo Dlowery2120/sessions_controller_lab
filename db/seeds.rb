@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Session.destroy_all
+
+Session.create()
+Session.create()
+Session.create()
+Session.create()
+Session.create()
+Session.create()
+Session.create()
